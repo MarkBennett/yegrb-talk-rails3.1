@@ -6,7 +6,8 @@ h1, h2, h3, p, li { color: #EEEEEE; text-shadow: #000 2px 2px 4px }
 a                 { color: #499DFF; text-decoration: none }
 ul                { list-style-type: disc }
 em                { color: #4BFF50 }
-strong            { color: #FFAB49; font-weight: bold }
+strong            { color: #FFAB49; font-weight: bold; }
+figure            { margin: 0 10%; }
 
 @media all and (max-device-width: 480px) {
   body  { background: #303030 }

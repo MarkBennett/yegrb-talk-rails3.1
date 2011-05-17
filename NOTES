@@ -1,0 +1,45 @@
+What's new in Rails 3.1, and why it matters
+
+Rails 3.1...
+
+ * is opinionated (as always!)
+ * gets little stuff right
+ * plays better with Rack
+
+Getting Rails 3.1
+
+     rvm 1.9.2@railspre --create
+     gem install rails --pre
+     rails new todo
+     cd todo
+     bundle
+     rails g scaffold project name:string
+     rake db:migrate
+     rake test
+
+What's new
+
+ * asset management
+ * jquery-ujs
+ * HTTP Streaming
+ * reversible migrations
+   **  To use reversible migrations, mjust define the "change" method
+   **  Migrations should use instance methods rather than class methods
+
+Next steps
+
+ * Rails 3.1 RC this week (@dhh)
+
+ * explore the other changes
+ ** https://gist.github.com/958283
+ ** rails plugin new
+ ** force_ssl (controller and config.force_ssl)
+ ** sensitive query parameters are filtered from the logs
+ ** now use Rack::Session stores API
+ ** add_index is added by default for belongs_to or references columns
+ ** ActiveRecord roles
+ ** ActiveRecord::Base#has_secure_password
+
+ * @railscasts is doing a great series on the changes in 3.1
+ ** http://railscasts.com/episodes/265-rails-3-1-overview
+ ** http://railscasts.com/episodes/266-http-streaming

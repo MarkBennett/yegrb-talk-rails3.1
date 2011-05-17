@@ -1,6 +1,24 @@
 {
-  "slides":       ["welcome.html"],
-  "title":        "Your presentation",
-  "plugins":      ["resize", "iphone"],
-  "transitions":  "fade"
+  "slides": [
+    "welcome.html",
+    "whoami.html",
+    "rails31_is.html",
+    "rails31_is_opinionated.html",
+    "rails31_gets_little_stuff_right.html",
+    "rails31_plays_with_rack.html",
+    "getting_rails31.html",
+    "install_nodejs.html",
+    "add_projects.html",
+    "asset_management.html",
+    "asset_management_coffeescript.html",
+    "asset_management_sass.html",
+    "jquery_ujs.html"
+  ],
+  "title": "Rails 3.1: What's new and why you care",
+  "plugins": [
+    "resize",
+    "iphone"
+  ],
+  "transitions": "fade",
+  "theme": "default"
 }
