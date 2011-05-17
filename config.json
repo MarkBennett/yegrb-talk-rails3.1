@@ -12,7 +12,11 @@
     "asset_management.html",
     "asset_management_coffeescript.html",
     "asset_management_sass.html",
-    "jquery_ujs.html"
+    "jquery_ujs.html",
+    "http-streaming.html",
+    "reversible-migrations.html",
+    "next-steps.html",
+    "thanks.html"
   ],
   "title": "Rails 3.1: What's new and why you care",
   "plugins": [

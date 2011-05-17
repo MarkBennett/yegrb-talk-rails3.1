@@ -1,0 +1,13 @@
+<h1 class="centered">Reversible Migrations</h1>
+<figure>
+<pre class="brush: ruby; gutter: true">
+class MyMigration < ActiveRecord::Migration
+	def change
+		create_table(:horses) do
+      t.column :content, :text
+      t.column :remind_at, :datetime
+    end
+  end
+end
+</pre>
+</figure>
